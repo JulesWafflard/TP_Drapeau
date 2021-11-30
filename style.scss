@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .taille {
+        height: 200px;
+        width: 300px;
+    }
+
+    #france {
+        display: flex;
+
+        .bleu,
+        .blanc,
+        .rouge {
+            width: 33.3%;
+        }
+
+        .bleu {
+            background-color: #000091;
+        }
+
+        .rouge {
+            background-color: #ff0e00;
+        }
+    }
+
+    #allemagne {
+
+        .noir,
+        .rouge,
+        .jaune {
+            height: 33%;
+        }
+
+        .noir {
+            background-color: black;
+        }
+
+        .rouge {
+            background-color: red;
+        }
+
+        .jaune {
+            background-color: #f6c800;
+        }
+    }
+
+    #canada {
+        display: flex;
+        .rouge {
+            background-color: red;
+            width: 25%;
+        }
+
+        .blanc {
+            width: 50%;
+            i {
+                color: red;
+                font-size: 75px;
+            }
+        }
+    }
+
+    #liban {
+        .rouge {
+            background-color: red;
+            height: 20%;
+        }
+
+        .blanc {
+            height: 60%;
+            i {
+                color: #038080;
+                font-size: 75px;
+            }
+        }
+    }
+}

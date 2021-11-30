@@ -1,0 +1,99 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .taille {
+  height: 200px;
+  width: 300px;
+}
+
+body #france {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #france .bleu,
+body #france .blanc,
+body #france .rouge {
+  width: 33.3%;
+}
+
+body #france .bleu {
+  background-color: #000091;
+}
+
+body #france .rouge {
+  background-color: #ff0e00;
+}
+
+body #allemagne .noir,
+body #allemagne .rouge,
+body #allemagne .jaune {
+  height: 33%;
+}
+
+body #allemagne .noir {
+  background-color: black;
+}
+
+body #allemagne .rouge {
+  background-color: red;
+}
+
+body #allemagne .jaune {
+  background-color: #f6c800;
+}
+
+body #canada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #canada .rouge {
+  background-color: red;
+  width: 25%;
+}
+
+body #canada .blanc {
+  width: 50%;
+}
+
+body #canada .blanc i {
+  color: red;
+  font-size: 75px;
+}
+
+body #liban .rouge {
+  background-color: red;
+  height: 20%;
+}
+
+body #liban .blanc {
+  height: 60%;
+}
+
+body #liban .blanc i {
+  color: #038080;
+  font-size: 75px;
+}
+/*# sourceMappingURL=style.css.map */
